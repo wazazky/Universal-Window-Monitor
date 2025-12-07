@@ -10,11 +10,13 @@ Una herramienta de escritorio para Windows que monitorea el título de cualquier
 - **Ligero:** Escrito en Python nativo con `ctypes`.
 
 ## 🛠️ Instalación y Uso
-1. Ve a la sección de [Releases](link-a-tus-releases) y descarga el `.exe`.
-2. Ejecuta `UniversalMonitor.exe`.
-3. Selecciona la ventana de la lista (ej: Spotify, YouTube en Chrome, etc.).
-4. En OBS, agrega una fuente de texto (GDI+) y selecciona la opción "Leer desde archivo".
-5. Apunta al archivo `ventana_actual.txt` generado.
+
+No es necesario instalar Python. Solo descarga el ejecutable:
+
+1.  Ve a la sección de **[Releases](https://github.com/wazazky/Universal-Window-Monitor/releases/latest)**.
+2.  Descarga el archivo `UniversalMonitor.exe` (bajo la sección "Assets").
+3.  Ejecútalo (Windows puede preguntar si confías en el archivo, dale a "Más información" > "Ejecutar de todas formas").
+4.  Selecciona la ventana que quieras monitorear.
 
 ## 💻 Desarrollo
 Requisitos: Python 3.12+
